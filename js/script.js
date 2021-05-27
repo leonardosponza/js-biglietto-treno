@@ -11,8 +11,8 @@ console.log(età);
 
 var prezzokm = 0.21;
 
-var scontominorenne = -(totale * 20/100) 
-var scontoanziani = -(totale * 40/100)
+var scontominorenne = 80/100
+var scontoanziani = 60/100
 
 var totale = (kilometri * prezzokm).toFixed(2);
 document.getElementById('totale').innerHTML += totale + '€';
